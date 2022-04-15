@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta Tag -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Title -->
+		<title>Moe's Cafe - Home</title>
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+		<!-- Template Main CSS -->
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<!-- == Header Section == -->
+		<header class="header">
+			<div class="container">
+				<div class="navbar">
+					<!-- Logo -->
+					<div class="logo"><a href="index.html">Moe's Cafe</a></div>
+
+					<!-- Menu -->
+					<div class="menu">
+						<nav>
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="menus.html">Our Menus</a></li>
+								<li><a class="active" href="reservation.html">Reservation</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- End Menu -->
+				</div>
+			</div>
+		</header>
+		<!-- == Header Section == -->
+
+		<!-- == Page Title Section == -->
+		<section class="page-title">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h2>Reservation</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- == End Hero Section == -->
+
+		<!-- == Menu Section == -->
+		<section class="resarvation">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="resarvation-img">
+							<img class="img-fluid" src="assets/img/resarvation.jpg" alt="resarvation image" />
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<form class="resarvation-form" id="contactForm" name="contact-form" action="sendemail.php" method="POST">
+							<div class="form-group">
+								<label class="sr-only" for="name">Name</label>
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
+							</div>
+
+							<div class="form-group">
+								<label class="sr-only" for="email">Email</label>
+								<input type="email" name="email" class="form-control" id="email" placeholder="Your Email" />
+							</div>
+
+							<div class="form-group">
+								<label class="sr-only" for="subject">Subject</label>
+								<input type="text" name="subject" class="form-control" id="subject" placeholder="Your Subject" />
+							</div>
+							<div class="form-group">
+								<label class="sr-only" for="message">Message</label>
+								<textarea name="message" class="form-control" id="message" placeholder="Your Message"></textarea>
+							</div>
+							<div class="submit-button">
+								<button type="submit" name="submit" class="button input-btn"><span>Book Now</span></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- == End Menu Section == -->
+
+		<!-- == Footer Section == -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h2 class="reservation">718-663-2233</h2>
+						<span>Make Reservations</span>
+						<nav class="footer-menu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="menus.html">Our Menus</a></li>
+								<li><a href="reservation.html">Reservation</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+						<p class="mb-0">&copy; 2022 Moe's Cafe</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- == End Footer Section == -->
+	</body>
+</html>
